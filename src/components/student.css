@@ -1,0 +1,54 @@
+.heading {
+  margin-bottom: 5em;
+}
+.heading .name {
+  float: left;
+}
+.heading .score {
+  float: right;
+}
+
+.student .left {
+  width: 60%;
+  display: inline-block;
+  vertical-align: middle;
+
+  text-align: left;
+}
+.student .right {
+  width: 40%;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: right;
+}
+
+hr {
+  width: 100%;
+}
+
+.student .left .h3 {
+  margin: 0px;
+  padding: 0px;
+}
+.student .left .p {
+  margin: 0px;
+  padding: 0px;
+}
+
+.addScorebtn {
+  border-radius: 10px;
+  margin-left: 1em;
+  background-color: green;
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.minusScorebtn {
+  border-radius: 10px;
+  background-color: red;
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
